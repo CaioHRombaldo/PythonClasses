@@ -1,0 +1,7 @@
+something = input('Enter something: ')
+print('The type of the entered value is: {}'.format(type(something)))
+print('Alpha: {}'.format(something.isalpha()))
+print('Numeric: {}'.format(something.isnumeric()))
+print('AlphaNum: {}'.format(something.isalnum()))
+print('Lower: {}'.format(something.islower()))
+print('Upper: {}'.format(something.isupper()))
